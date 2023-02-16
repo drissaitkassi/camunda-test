@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "label": "grab cash",
+      "type": "textfield",
+      "id": "Field_0d15m3k",
+      "key": "money",
+      "description": "cash to travel",
+      "validate": {
+        "required": true,
+        "pattern": "^\\d+(\\.\\d+)?$"
+      }
+    },
+    {
+      "label": "where are you headed",
+      "type": "textfield",
+      "id": "Field_18vbdok",
+      "key": "country",
+      "description": "destinaton country ",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "enter price taxi",
+      "type": "textfield",
+      "id": "Field_0g4gdq5",
+      "key": "taxiCost",
+      "description": "for tax reasons"
+    }
+  ],
+  "type": "default",
+  "id": "form_taxi",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.8.0"
+  },
+  "schemaVersion": 7
+}
